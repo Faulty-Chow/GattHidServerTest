@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:horizontalGap="0.2083333333%p"
+    app:keyHeight="50dp"
+    app:keyWidth="7.5%p"
+    app:verticalGap="4dp">
+
+    <Row>
+        <Key
+            app:codes="219"
+            app:keyEdgeFlags="left"
+            app:keyLabel="[ {" />
+        <Key
+            app:codes="221"
+            app:keyLabel="] }" />
+        <Key
+            app:codes="220"
+            app:keyLabel="\\ |" />
+        <Key
+            app:codes="45"
+            app:horizontalGap="5%p"
+            app:keyLabel="Ins" />
+        <Key
+            app:codes="33"
+            app:keyEdgeFlags="right"
+            app:keyLabel="PgUp" />
+    </Row>
+
+    <Row>
+        <Key
+            app:codes="192"
+            app:keyEdgeFlags="left"
+            app:keyLabel="` ~" />
+        <Key
+            app:codes="186"
+            app:keyLabel="; :" />
+        <Key
+            app:codes="222"
+            app:keyLabel="' &quot;" />
+        <Key
+            app:codes="46"
+            app:horizontalGap="5%p"
+            app:keyLabel="Del" />
+        <Key
+            app:codes="34"
+            app:keyEdgeFlags="right"
+            app:keyLabel="PgDn" />
+    </Row>
+
+    <Row>
+        <Key
+            app:codes="188"
+            app:keyEdgeFlags="left"
+            app:keyLabel=", &lt;" />
+        <Key
+            app:codes="190"
+            app:keyLabel=". &gt;" />
+        <Key
+            app:codes="191"
+            app:keyLabel="/ ?" />
+        <Key
+            app:codes="16"
+            app:horizontalGap="5%p"
+            app:keyLabel="Shift"
+            app:keyWidth="15.2083333333%p" />
+    </Row>
+
+    <Row>
+        <Key
+            app:codes="32"
+            app:keyEdgeFlags="left"
+            app:keyWidth="15.2083333333%p"
+            app:keyLabel="Space" />
+        <Key
+            app:codes="18"
+            app:keyLabel="Alt" />
+        <Key
+            app:codes="17"
+            app:keyLabel="Ctrl" />
+        <Key
+            app:codes="8"
+            app:keyLabel="←"
+            app:keyWidth="12.2916666667%p" />
+    </Row>
+</Keyboard>

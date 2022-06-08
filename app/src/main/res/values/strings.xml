@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GattHidServerTest</string>
+    <string name="keyboard">Keyboard</string>
+</resources>
